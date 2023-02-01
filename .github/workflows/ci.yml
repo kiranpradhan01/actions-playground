@@ -23,4 +23,4 @@ jobs:
           repository: kiranpradhan01/project-kpdebate
           
       - name: echo topics
-        run: echo $(GITHUB_WORKSPACE)/my-app/src/data/topics.csv
+        run: echo $GITHUB_WORKSPACE/my-app/src/data/topics.csv
